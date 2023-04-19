@@ -59,7 +59,7 @@ input[type="number"]{
     color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
     border-radius: 3px;
-    border: 1px solid var(--tg-theme-)
+    border: 1px solid var(--tg-theme-hint-color)
 }
 input[type="range"]{
     width: 100%;
