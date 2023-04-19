@@ -11,8 +11,7 @@ let n_prompt = document.getElementById("n_prompt")
 let btn = document.getElementById("btn");
 
 btn.addEventListener("click", function(){
-    tg.MainButton.setText("Сообщение отправлено!");
-    tg.MainButton.show();
-    tg.sendData({"prompt":p_prompt.value, });
+    tg.sendData("test");
+    tg.close();
 });
 
