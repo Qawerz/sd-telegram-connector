@@ -2,10 +2,10 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 tg.MainButton.setText("Отправить запрос");
-tg.MainButton.show();
 
-// tg.MainButton.textColor = "#FFFFFF";
-// tg.MainButton.color = "#FF00FF";
+tg.MainButton.textColor = "#FFFFFF";
+tg.MainButton.color = "#FF00FF";
+tg.MainButton.show();
 
 let btn = document.getElementById("btn");
 
