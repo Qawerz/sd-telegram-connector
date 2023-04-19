@@ -11,7 +11,7 @@ let n_prompt = document.getElementById("n_prompt")
 let btn = document.getElementById("btn");
 
 btn.addEventListener("click", function(){
-    tg.sendData("test");
+    tg.sendData(JSON.stringify({"prompt": p_prompt}));
     tg.close();
 });
 
